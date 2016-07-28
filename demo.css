@@ -1,0 +1,126 @@
+body {
+  color: #000;
+  font-family: arial;
+  margin: 0;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p{
+  font-size: 18px;
+  margin: 0;
+  line-height: 23px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.flr, .flr img, .flr .grid-4{
+  float: right;
+  -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.flr img:hover {
+  -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg);
+    transform: rotate(8deg);
+}
+
+.fll, .fll img {
+  float: left;
+  margin-right: 35px;
+  -webkit-transition: transform 400ms ease-out;
+  -moz-transition: transform 400ms ease-out;
+  -ms-transition: transform 400ms ease-out;
+  -o-transition: transform 400ms ease-out;
+  transition: transform 400ms ease-out;
+}
+
+.fll img:hover {
+  -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.clearfix {
+  clear: both;
+}
+
+.mr-0, .fll img.mr-0 {
+  margin-right: 0;
+}
+
+.center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.blu {
+  background: #3F96E8;
+  height: 270px;
+  overflow: hidden;
+}
+
+.wit {
+  height: 270px;
+  overflow: hidden;
+}
+
+.logo {
+  margin-bottom: -120px;
+}
+
+.profile-photo {
+  margin-top: -20px;
+}
+
+.header .grid-8 {
+  background-color: #000;
+}
+
+.header.wrapper {
+  background-color: #000;
+  height: 38px;
+}
+
+.header p{
+  color: #fff;
+  margin-left: 20px;
+  line-height: 38px;
+}
+
+.nav{
+  float: right;
+}
+
+.footer {
+  height: 90px;
+  background-color: #000;
+}
+
+.footer p, .footer a {
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.footer .grid-8 {
+  margin-top: 20px;
+}
+
+.footer img {
+  margin-top: -36.5px;
+}
+
+.skills .grid-2 p {
+  font-size: 18px;
+  margin-bottom: 7.5px;
+}
